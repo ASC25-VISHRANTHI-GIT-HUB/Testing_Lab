@@ -1,11 +1,11 @@
-package Test;
+package Pac1;
 
 
 import org.junit.*;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
-import Pac1.HomePageFactory;
+import HomePageFactory;
 
 public class PageFactoryTest {
     WebDriver driver;
@@ -50,4 +50,5 @@ public class PageFactoryTest {
     public void tearDown() {
         driver.quit();
     }
+
 }
