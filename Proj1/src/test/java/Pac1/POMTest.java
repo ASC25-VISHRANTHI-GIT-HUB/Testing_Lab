@@ -1,10 +1,10 @@
-package Test;
+package Pac1;
 
 import org.junit.*;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
-import Pac1.HomePage;
+import HomePage;
 
 
 
@@ -48,4 +48,5 @@ public class POMTest {
     public void tearDown() {
         driver.quit();
     }
+
 }
