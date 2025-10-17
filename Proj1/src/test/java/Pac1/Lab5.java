@@ -67,7 +67,7 @@ public class Lab5 {
 
 		//STEP 1:
 
-		driver.findElement(By.xpath("//input[@placeholder='First Name']")).sendKeys("Vishranthu");
+		driver.findElement(By.xpath("//input[@placeholder='First Name']")).sendKeys("Vishranthi");
 
 		//STEP 2:
 

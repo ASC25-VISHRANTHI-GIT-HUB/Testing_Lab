@@ -26,12 +26,11 @@ public class Lab6 {
 		driver.findElement(By.id("input-email")).sendKeys("shree1@gmail.com");
 		driver.findElement(By.id("input-password")).sendKeys("Pass");
 		driver.findElement(By.xpath("html/body/div[2]/div/div/div/div[2]/div/form/input")).click();
- 
+		
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         WebElement element = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("html/body/div[2]/ul/li/a/i")));
         element.click();
- 
-		
+
 		//STEP 2:
 		driver.findElement(By.xpath("html/body/div/nav/div[2]/ul/li[3]")).click();
 		//STEP 3:
